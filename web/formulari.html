@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="formulari per el client" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link href="./img/logo.jpg" rel="icon">
+    </head>
+    <body>
+        <img src="../img/logo.jpg" alt="">
+        <nav>
+                <a href="../web/classif.html">Classificació</a>
+                <a href="../web/resultats.html">Resultats</a>
+                <a href="../web/galeria.html">Galeria Audiovisual</a>
+                <a href="../web/formulari.html">Formulari</a>
+        </nav>    
+        <form action="./.php" method="POST">
+            <p>
+            <label for="Email">Email:</label>
+                <input type="email" id="idEmail" name="correo" placeholder="Introduce tu correo electrónico">
+                <br>
+            
+            <label for="NomComplet">Nom Complet</label>
+                <input type="text" id="idNombre" name="nombre" placeholder="Introduce tu nombre" autofocus size="50" maxlength="100">
+                <br> 
+            <label for="color tema">Color del tema:</label>
+                <input id="inColor1" name="color1" type="color" value="#FFFF00">
+                <br>
+            <label for="valoraccio">Puntuacó:</label>
+                <input id="valoracio" name="valoracio" type="number" min="0" max="5" step="1" value="4">
+                <br>
+            <label for="valoracio">Valoracio:</label>
+            <select name="profePrefe">
+                <option value="exel·lent" selected >Exel·lent</option>
+                <option value="notable">Notable</option>
+                <option value="be">Be</option>
+                <option value="regular">Regular</option>
+                <option value="dolenta">Dolenta</option>
+            </select>
+                <br>
+          <label for="inUser">Comentari:</label>
+            <textarea name=observaciones rows="10" cols="100"></textarea>
+            <br>
+            <input value="Envía el Formulario" type="submit"> <input value="Resetejar el Formulario!" type="reset">
+            </p>
+        </form>
+    </body>
+    <footer>
+        <nav>
+            <a href="https://twitter.com/laligaEN">twitter</a>
+            <a href="https://www.facebook.com/LaLiga">facebook</a>
+            <a href="https://www.instagram.com/laliga/">instagram</a>
+            <a href="https://www.youtube.com/user/laliga">You Tube</a>
+        </nav>
+        <p>© Copyright FC Barcelona Pàgina Oficial de IBERDROLA</p>
+    </footer>
+</html>
+
+
