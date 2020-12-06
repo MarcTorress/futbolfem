@@ -1,0 +1,57 @@
+#fotoi 
+{
+    display: block;
+    max-width: 30%;
+    padding-bottom: 1vw;
+    margin-left: 32vw;
+}
+
+#menp a
+{
+    text-decoration: none;
+    padding: 0.5vw;
+    color: white; 
+    
+
+}
+
+a:hover {
+    background-color: lightgray ;
+    border-radius: 5vw;
+}
+
+#menp
+{
+    background-color: grey;
+    height: 0.5vw;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    margin: 0;
+    border-radius: 0.8vw;
+    text-align: center;
+    
+}
+
+#a1 
+{
+
+}
+
+footer span a{
+    text-decoration: none ;
+    color: black;
+    margin-left: 1vw;
+}
+
+footer{
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+footer span a img{
+    height: 1.5%;
+    width: 1.5%;
+}

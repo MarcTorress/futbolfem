@@ -1,0 +1,85 @@
+
+#menu2 {
+    height: 0.5vw;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    margin: 0;
+    border-radius: 0.8vw;
+    margin-left: 10vw;
+    margin: 0;
+    text-align: center;
+    background-color: grey;
+}
+
+article {
+    margin-right: 50vw;
+}
+
+#menu2 a
+{
+    text-decoration: none;
+    padding: 1em;
+    background-color: grey;
+    color: white;
+    margin: 0;
+    margin-right:0px;
+    border-radius: 0.5vw;
+    padding: 0.4vw;  
+}
+
+#a2:hover {
+    background-color: lightgray ;
+    border-radius: 1vw;
+}
+
+#planter:hover {
+background-color: lightgray ;
+border-radius: 10px;
+}
+
+#a2
+{
+    padding-right: 10000em;
+    margin left: 40vw;
+}
+
+#escut{
+    margin-left: 20vw;
+    margin-bottom: 2vw;
+    padding-top: 2vw;
+    max-width: 15%;   
+}
+
+div {
+    margin-left: 85vw;
+    margin-bottom: 10vw;
+    float: left;
+ }
+
+ aside {
+    padding-bottom: 22vw;
+    margin-top: -10vw;
+    margin-left: -35vw;
+    text-align: center;
+ }
+
+ footer {
+    margin-top: 13vw;
+    padding-top: 0;
+ }
+
+ footer p {
+     padding-top: 0;
+ }
+
+aside p {
+    text-align: justify;
+    float: right;
+    margin-top: 0;
+    padding-top: 2vw;
+    padding-right: 1vw;
+
+
+}
+
+
